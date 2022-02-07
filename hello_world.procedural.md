@@ -8,7 +8,7 @@ int main() {
 ```
 
 ```cpp
-// c++
+// C++
 #inclue <iostream>
 int main() {
    std::cout << "Hello, World!" << std::endl;
@@ -17,7 +17,7 @@ int main() {
 ```
 
 ```objc
-// objective-c
+// Objective-C
 #import <Foundation/Foundation.h>
 int main(int argc, const char* argv[]) {
    NSLog(@"Hello, World!");
@@ -26,7 +26,7 @@ int main(int argc, const char* argv[]) {
 ```
 
 ```java
-// java
+// Java
 class HelloWorld {
    public static void main(String args[]){
       System.out.println("Hello, World!");
@@ -35,7 +35,7 @@ class HelloWorld {
 ```
 
 ```csharp
-// c#
+// C#
 using System;
 namespace HelloWorld 
 {
@@ -50,19 +50,19 @@ namespace HelloWorld
 ```
 
 ```python
-# python
+# Python
 print("Hello, World!")
 ```
 
 ```rust
-// rust
+// Rust
 fn main() {
    println!("Hello, World!");
 }
 ```
 
 ```javascript
-// javascript (web)
+// Javascript (web)
 <script>
    console.log("Hello, World!");
 </script>
