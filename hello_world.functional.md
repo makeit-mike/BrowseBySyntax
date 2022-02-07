@@ -5,7 +5,7 @@ main = putStrLn "Hello, World!"
 ```
 
 ```fsharp
--- F#
+// F#
 open System
 [<EntryPoint>]
 let main argv =
@@ -14,7 +14,7 @@ let main argv =
 ```
 
 ```elixir
--- Elixir
+# Elixir
 defmodule M do
    def main do
       IO.puts "Hello, World!"
@@ -23,7 +23,7 @@ end
 ```
 
 ```erlang
--- Erlang
+% Erlang
 -module(hello_world).
 -compile(export_all).
 hello() ->
@@ -39,13 +39,13 @@ end.
 ```
 
 ```ocaml
--- OCaml
+(* OCaml *)
 let () = 
    print_string "Hello, World!";
 ```
 
 ```clojure
--- Clojure
+;; Clojure
 (ns hello-world.core)
 (defn -main [& args]
   (println "Hello, World!"))
@@ -60,7 +60,7 @@ main =
 ```
 
 ```lisp
--- Common-Lisp
+;; Common-Lisp
 (defun hello ()
    (format t "Hello, World!"))
 ```
