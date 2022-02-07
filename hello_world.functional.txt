@@ -1,0 +1,49 @@
+-- Haskell
+main :: IO()
+main = putStrLn "Hello, World!"
+
+-- F#
+open System
+[<EntryPoint>]
+let main argv =
+   printfn "Hello, World!"
+   0
+
+-- Elixir
+defmodule M do
+   def main do
+      IO.puts "Hello, World!"
+   end
+end
+
+-- Erlang
+-module(hello_world).
+-compile(export_all).
+hello() ->
+   io:format("Hello, World!").
+
+-- Pascal
+program Hello;
+begin
+   writeln ('Hello, World!');
+end.
+
+-- OCaml
+let () = 
+   print_string "Hello, World!";
+
+-- Clojure
+(ns hello-world.core)
+(defn -main [& args]
+  (println "Hello, World!"))
+
+-- Elm
+module HelloWorld exposing (..)
+import Html exposing (text)
+main = 
+   text "Hello, World!"
+
+-- Common-Lisp
+(defun hello ()
+   (format t "Hello, World!"))
+
