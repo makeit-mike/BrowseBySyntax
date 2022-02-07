@@ -1,9 +1,11 @@
 
 // c
+```c
 int main() {
    printf("Hello, World!");
    return 0;
 }
+```
 
 // c++
 #inclue <iostream>
