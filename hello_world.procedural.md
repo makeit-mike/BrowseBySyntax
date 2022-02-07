@@ -50,7 +50,7 @@ namespace HelloWorld
 ```
 
 ```python
-// python
+# python
 print("Hello, World!")
 ```
 
